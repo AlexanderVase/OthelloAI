@@ -6,7 +6,7 @@ public class OthelloGame {
     private int currentPlayer;
     private boolean gameOver;
     private int turnCount; // Add turn counter
-    private static final int MAX_TURNS = 50; // Prevent infinite loops
+    private static final int MAX_TURNS = 40; // Prevent infinite loops
     
     public OthelloGame() {
         board = new OthelloBoard();
